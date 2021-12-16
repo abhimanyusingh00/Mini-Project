@@ -6,6 +6,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+#MenuItems a:hover{
+     color: blue;
+     font-size: 18px;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -106,8 +110,9 @@ p{
     text-align: center;
     margin: 0 auto 80px;
     position: relative;
-    line-height: 60px;
+    line-height: 80px;
     color: #555;
+    font-size: 40px;
 }
 .title::after{
     content: '';
