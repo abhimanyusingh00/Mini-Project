@@ -513,6 +513,125 @@ background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
     background: linear-gradient(to bottom right, #2af598, #009efd);
 }
 
+/*Services*/
+#services{
+    margin-top:80px ;
+}
+.containerr{
+    padding: 3rem;
+    display: flex;
+}
+.grid-wrapper,.services-content{
+    flex-basis:50%;
+}
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    grid-gap: 2em;
+    padding: 2rem;
+}
+.grid-box{
+    height: 200px;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.438);
+}
+.grid-box img{
+    width: 80px;
+    height:80px;
+    margin-bottom: 20px;
+    animation: scaleup 6s ease-in-out infinite;
+}
+.grid-box h1{
+    color: whitesmoke;
+    font-weight: 500;
+}
+.box1{
+    background: linear-gradient(to bottom right, rgb(80, 80, 255), rgb(253, 119, 119));;
+}
+.box2{
+    background:  linear-gradient(to bottom right, rgb(255, 207, 145),rgb(255, 111, 92));
+    margin-top: 30px;
+}
+.box3{
+    background: linear-gradient(to bottom right, #2af598, #009efd);
+}
+.box4{
+    background:  linear-gradient(to bottom right, rgb(107, 107, 255), blue);
+    margin-top: 30px;
+}
+.services-content{
+    padding: 3rem;
+    position: relative;
+}
+.services-content h1{
+    font-size: 6vmin;
+    margin-bottom: 30px;   
+}
+.services-content p{
+    padding-right: 6rem;
+    margin-bottom: 30px;
+}
+.circle img{
+    position: absolute;
+    top:0;
+    left:0%;
+    width:550px;
+    z-index: -1;
+    animation: scaleup 6s ease-in-out infinite;
+}
+/*Numbers section*/
+#number{
+    margin-top: 90px;
+}
+#number h1{
+    font-size: 40px;
+    margin-left: 5rem;
+}
+#number p{
+    padding-left: 5rem;
+    padding-right: 50%;
+}
+#number .grid-box h2{
+    color: whitesmoke;
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 20px;
+}
+#number .grid-box h1{
+    font-size: 40px;
+}
+#number .grid-box{
+    transition: transform 1s ease-in-out;
+}
+#number .grid-box:hover{
+    transform: translateY(-20px);
+}
+.mockup-img{
+    flex-basis: 50%;
+}
+.mockup-img img{
+    max-width: 100%;
+    margin:  30px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.329);
+    border-radius: 10px;
+}
+.hpyclients{
+    background: linear-gradient(to bottom right, rgb(107, 107, 255), blue);
+
+}
+.prjcomp{
+    background: linear-gradient(to bottom right, rgb(80, 80, 255), rgb(253, 119, 119));
+}
+.runningprj{
+    background: linear-gradient(to bottom right, rgb(255, 207, 145),rgb(255, 111, 92));
+
+}
+.designs{
+    background: linear-gradient(to bottom right, #2af598, #009efd);
+}
+
 
 /* media query for screen for size less than 600 */
 @media only screen and (max-width:600px){
